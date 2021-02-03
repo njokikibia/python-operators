@@ -1,0 +1,74 @@
+#Python operators
+x=10
+y=2
+e=x/y
+f=x//y
+d=x+y
+s=x*y
+print(e ,f ,d ,s )
+
+x="Python is a high-level"
+y=" programminfg language"
+q=x+y
+print(q)
+
+
+#Relationship operators
+a=20
+b=10
+k=(a!=b)
+u=(a==b)
+print(k)
+print(u)
+
+c=a>b
+x=a<b
+print(c)
+print(x)
+
+x="python"
+y="operators"
+s=(x>=y)
+print(s)
+
+q=(x==y)
+print(q)
+
+print(len(x))
+print(len(y))
+#Logical operators
+
+#or logical operator
+x=10
+y=5
+u=(x>=y or y>=x)
+print(u)
+
+#and logical operator
+g=(x>=y and y>=x)
+print(g)
+
+#not logical operator
+d=(not x==y)
+print(d)
+
+#identity operators
+x=10
+y=5
+g=x is not y
+print(g)
+
+print(x is y)
+
+#membership operators
+x=2,3,4,8
+y=5,9,0,2
+print(x  not in y)
+print(x in y)
+
+#Bitwise operators
+x=10
+y=5
+e=(x>5 & y<10)
+print(e)
+print(~ e)
